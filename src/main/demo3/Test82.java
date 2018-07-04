@@ -15,37 +15,37 @@ import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
 import java.util.HashMap;
-public class test9_1 {
+public class Test82 {
 	@BeforeClass
 	public static void beforeClass(){
-		System.out.println("This is test9_1 @beforeClass"); 
+		System.out.println("This is test9_2 @beforeClass"); 
 	}
 	
 	@Before
 	public void before(){
-		System.out.println("This is test9_1 @before");
+		System.out.println("This is test9_2 @before");
 	}
 	@Test
 	public void fun1(){
-		System.out.println("This is test9_1 @Test fun1 ");
+		System.out.println("This is test9_2 @Test fun1 ");
 	}
 	
 
 	
 	@Test
 	public void fun2(){
-		System.out.println("This is test9_1 @Test fun2 ");
+		System.out.println("This is test9_2 @Test fun2 ");
 }
 	
 	
 	@After
 	public void after(){
-		System.out.println("This is test9_1 @After ");
+		System.out.println("This is test9_2 @After ");
 	}
 	
 	@AfterClass
 	public  static  void afterClass(){
-		System.out.println("This is test9_1 @afterClass ");
+		System.out.println("This is test9_2 @afterClass ");
 	}
 	
 	
