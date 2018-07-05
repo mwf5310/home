@@ -11,7 +11,7 @@ import org.junit.runner.FilterFactoryParams;
 	Test82.class,
 	Test83.class
 })
-public class DemoSuite1 {
+public class DemoSuite81 {
 	
 
 }
